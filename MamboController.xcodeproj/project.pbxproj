@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA87DE21FBFFB1800FB2635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87DE11FBFFB1800FB2635 /* AppDelegate.swift */; };
+		CDA87DE41FBFFB1800FB2635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87DE31FBFFB1800FB2635 /* ViewController.swift */; };
+		CDA87DE71FBFFB1800FB2635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA87DE51FBFFB1800FB2635 /* Main.storyboard */; };
+		CDA87DE91FBFFB1800FB2635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA87DE81FBFFB1800FB2635 /* Assets.xcassets */; };
+		CDA87DEC1FBFFB1800FB2635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA87DEA1FBFFB1800FB2635 /* LaunchScreen.storyboard */; };
+		CDA87DF71FBFFB1800FB2635 /* MamboControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87DF61FBFFB1800FB2635 /* MamboControllerTests.swift */; };
+		CDA87E021FBFFB1800FB2635 /* MamboControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87E011FBFFB1800FB2635 /* MamboControllerUITests.swift */; };
+		CDA87E151FBFFB3000FB2635 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA87E131FBFFB3000FB2635 /* Interface.storyboard */; };
+		CDA87E171FBFFB3000FB2635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA87E161FBFFB3000FB2635 /* Assets.xcassets */; };
+		CDA87E1E1FBFFB3000FB2635 /* MamboControllerByWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CDA87E1D1FBFFB3000FB2635 /* MamboControllerByWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDA87E231FBFFB3000FB2635 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87E221FBFFB3000FB2635 /* InterfaceController.swift */; };
+		CDA87E251FBFFB3000FB2635 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87E241FBFFB3000FB2635 /* ExtensionDelegate.swift */; };
+		CDA87E271FBFFB3000FB2635 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87E261FBFFB3000FB2635 /* NotificationController.swift */; };
+		CDA87E291FBFFB3000FB2635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA87E281FBFFB3000FB2635 /* Assets.xcassets */; };
+		CDA87E2E1FBFFB3000FB2635 /* MamboControllerByWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CDA87E111FBFFB2F00FB2635 /* MamboControllerByWatch.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA87DF31FBFFB1800FB2635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA87DD61FBFFB1800FB2635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA87DDD1FBFFB1800FB2635;
+			remoteInfo = MamboController;
+		};
+		CDA87DFE1FBFFB1800FB2635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA87DD61FBFFB1800FB2635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA87DDD1FBFFB1800FB2635;
+			remoteInfo = MamboController;
+		};
+		CDA87E1F1FBFFB3000FB2635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA87DD61FBFFB1800FB2635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA87E1C1FBFFB3000FB2635;
+			remoteInfo = "MamboControllerByWatch Extension";
+		};
+		CDA87E2C1FBFFB3000FB2635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA87DD61FBFFB1800FB2635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA87E101FBFFB2F00FB2635;
+			remoteInfo = MamboControllerByWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDA87E321FBFFB3000FB2635 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CDA87E1E1FBFFB3000FB2635 /* MamboControllerByWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87E361FBFFB3000FB2635 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CDA87E2E1FBFFB3000FB2635 /* MamboControllerByWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDA87DDE1FBFFB1800FB2635 /* MamboController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamboController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA87DE11FBFFB1800FB2635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDA87DE31FBFFB1800FB2635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDA87DE61FBFFB1800FB2635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDA87DE81FBFFB1800FB2635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA87DEB1FBFFB1800FB2635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDA87DED1FBFFB1800FB2635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA87DF21FBFFB1800FB2635 /* MamboControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamboControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA87DF61FBFFB1800FB2635 /* MamboControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamboControllerTests.swift; sourceTree = "<group>"; };
+		CDA87DF81FBFFB1800FB2635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA87DFD1FBFFB1800FB2635 /* MamboControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamboControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA87E011FBFFB1800FB2635 /* MamboControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamboControllerUITests.swift; sourceTree = "<group>"; };
+		CDA87E031FBFFB1800FB2635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA87E111FBFFB2F00FB2635 /* MamboControllerByWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamboControllerByWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA87E141FBFFB3000FB2635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CDA87E161FBFFB3000FB2635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA87E181FBFFB3000FB2635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA87E1D1FBFFB3000FB2635 /* MamboControllerByWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MamboControllerByWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA87E221FBFFB3000FB2635 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CDA87E241FBFFB3000FB2635 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CDA87E261FBFFB3000FB2635 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CDA87E281FBFFB3000FB2635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA87E2A1FBFFB3000FB2635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA87E2B1FBFFB3000FB2635 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA87DDB1FBFFB1800FB2635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87DEF1FBFFB1800FB2635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87DFA1FBFFB1800FB2635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87E1A1FBFFB3000FB2635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA87DD51FBFFB1800FB2635 = {
+			isa = PBXGroup;
+			children = (
+				CDA87DE01FBFFB1800FB2635 /* MamboController */,
+				CDA87DF51FBFFB1800FB2635 /* MamboControllerTests */,
+				CDA87E001FBFFB1800FB2635 /* MamboControllerUITests */,
+				CDA87E121FBFFB3000FB2635 /* MamboControllerByWatch */,
+				CDA87E211FBFFB3000FB2635 /* MamboControllerByWatch Extension */,
+				CDA87DDF1FBFFB1800FB2635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA87DDF1FBFFB1800FB2635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA87DDE1FBFFB1800FB2635 /* MamboController.app */,
+				CDA87DF21FBFFB1800FB2635 /* MamboControllerTests.xctest */,
+				CDA87DFD1FBFFB1800FB2635 /* MamboControllerUITests.xctest */,
+				CDA87E111FBFFB2F00FB2635 /* MamboControllerByWatch.app */,
+				CDA87E1D1FBFFB3000FB2635 /* MamboControllerByWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA87DE01FBFFB1800FB2635 /* MamboController */ = {
+			isa = PBXGroup;
+			children = (
+				CDA87DE11FBFFB1800FB2635 /* AppDelegate.swift */,
+				CDA87DE31FBFFB1800FB2635 /* ViewController.swift */,
+				CDA87DE51FBFFB1800FB2635 /* Main.storyboard */,
+				CDA87DE81FBFFB1800FB2635 /* Assets.xcassets */,
+				CDA87DEA1FBFFB1800FB2635 /* LaunchScreen.storyboard */,
+				CDA87DED1FBFFB1800FB2635 /* Info.plist */,
+			);
+			path = MamboController;
+			sourceTree = "<group>";
+		};
+		CDA87DF51FBFFB1800FB2635 /* MamboControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA87DF61FBFFB1800FB2635 /* MamboControllerTests.swift */,
+				CDA87DF81FBFFB1800FB2635 /* Info.plist */,
+			);
+			path = MamboControllerTests;
+			sourceTree = "<group>";
+		};
+		CDA87E001FBFFB1800FB2635 /* MamboControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA87E011FBFFB1800FB2635 /* MamboControllerUITests.swift */,
+				CDA87E031FBFFB1800FB2635 /* Info.plist */,
+			);
+			path = MamboControllerUITests;
+			sourceTree = "<group>";
+		};
+		CDA87E121FBFFB3000FB2635 /* MamboControllerByWatch */ = {
+			isa = PBXGroup;
+			children = (
+				CDA87E131FBFFB3000FB2635 /* Interface.storyboard */,
+				CDA87E161FBFFB3000FB2635 /* Assets.xcassets */,
+				CDA87E181FBFFB3000FB2635 /* Info.plist */,
+			);
+			path = MamboControllerByWatch;
+			sourceTree = "<group>";
+		};
+		CDA87E211FBFFB3000FB2635 /* MamboControllerByWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDA87E221FBFFB3000FB2635 /* InterfaceController.swift */,
+				CDA87E241FBFFB3000FB2635 /* ExtensionDelegate.swift */,
+				CDA87E261FBFFB3000FB2635 /* NotificationController.swift */,
+				CDA87E281FBFFB3000FB2635 /* Assets.xcassets */,
+				CDA87E2A1FBFFB3000FB2635 /* Info.plist */,
+				CDA87E2B1FBFFB3000FB2635 /* PushNotificationPayload.apns */,
+			);
+			path = "MamboControllerByWatch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA87DDD1FBFFB1800FB2635 /* MamboController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA87E061FBFFB1800FB2635 /* Build configuration list for PBXNativeTarget "MamboController" */;
+			buildPhases = (
+				CDA87DDA1FBFFB1800FB2635 /* Sources */,
+				CDA87DDB1FBFFB1800FB2635 /* Frameworks */,
+				CDA87DDC1FBFFB1800FB2635 /* Resources */,
+				CDA87E361FBFFB3000FB2635 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA87E2D1FBFFB3000FB2635 /* PBXTargetDependency */,
+			);
+			name = MamboController;
+			productName = MamboController;
+			productReference = CDA87DDE1FBFFB1800FB2635 /* MamboController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA87DF11FBFFB1800FB2635 /* MamboControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA87E091FBFFB1800FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerTests" */;
+			buildPhases = (
+				CDA87DEE1FBFFB1800FB2635 /* Sources */,
+				CDA87DEF1FBFFB1800FB2635 /* Frameworks */,
+				CDA87DF01FBFFB1800FB2635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA87DF41FBFFB1800FB2635 /* PBXTargetDependency */,
+			);
+			name = MamboControllerTests;
+			productName = MamboControllerTests;
+			productReference = CDA87DF21FBFFB1800FB2635 /* MamboControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDA87DFC1FBFFB1800FB2635 /* MamboControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA87E0C1FBFFB1800FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerUITests" */;
+			buildPhases = (
+				CDA87DF91FBFFB1800FB2635 /* Sources */,
+				CDA87DFA1FBFFB1800FB2635 /* Frameworks */,
+				CDA87DFB1FBFFB1800FB2635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA87DFF1FBFFB1800FB2635 /* PBXTargetDependency */,
+			);
+			name = MamboControllerUITests;
+			productName = MamboControllerUITests;
+			productReference = CDA87DFD1FBFFB1800FB2635 /* MamboControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CDA87E101FBFFB2F00FB2635 /* MamboControllerByWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA87E331FBFFB3000FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerByWatch" */;
+			buildPhases = (
+				CDA87E0F1FBFFB2F00FB2635 /* Resources */,
+				CDA87E321FBFFB3000FB2635 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA87E201FBFFB3000FB2635 /* PBXTargetDependency */,
+			);
+			name = MamboControllerByWatch;
+			productName = MamboControllerByWatch;
+			productReference = CDA87E111FBFFB2F00FB2635 /* MamboControllerByWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CDA87E1C1FBFFB3000FB2635 /* MamboControllerByWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA87E2F1FBFFB3000FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerByWatch Extension" */;
+			buildPhases = (
+				CDA87E191FBFFB3000FB2635 /* Sources */,
+				CDA87E1A1FBFFB3000FB2635 /* Frameworks */,
+				CDA87E1B1FBFFB3000FB2635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MamboControllerByWatch Extension";
+			productName = "MamboControllerByWatch Extension";
+			productReference = CDA87E1D1FBFFB3000FB2635 /* MamboControllerByWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA87DD61FBFFB1800FB2635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = taketin;
+				TargetAttributes = {
+					CDA87DDD1FBFFB1800FB2635 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CDA87DF11FBFFB1800FB2635 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDA87DDD1FBFFB1800FB2635;
+					};
+					CDA87DFC1FBFFB1800FB2635 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDA87DDD1FBFFB1800FB2635;
+					};
+					CDA87E101FBFFB2F00FB2635 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CDA87E1C1FBFFB3000FB2635 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDA87DD91FBFFB1800FB2635 /* Build configuration list for PBXProject "MamboController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA87DD51FBFFB1800FB2635;
+			productRefGroup = CDA87DDF1FBFFB1800FB2635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA87DDD1FBFFB1800FB2635 /* MamboController */,
+				CDA87DF11FBFFB1800FB2635 /* MamboControllerTests */,
+				CDA87DFC1FBFFB1800FB2635 /* MamboControllerUITests */,
+				CDA87E101FBFFB2F00FB2635 /* MamboControllerByWatch */,
+				CDA87E1C1FBFFB3000FB2635 /* MamboControllerByWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA87DDC1FBFFB1800FB2635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA87DEC1FBFFB1800FB2635 /* LaunchScreen.storyboard in Resources */,
+				CDA87DE91FBFFB1800FB2635 /* Assets.xcassets in Resources */,
+				CDA87DE71FBFFB1800FB2635 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87DF01FBFFB1800FB2635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87DFB1FBFFB1800FB2635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87E0F1FBFFB2F00FB2635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA87E171FBFFB3000FB2635 /* Assets.xcassets in Resources */,
+				CDA87E151FBFFB3000FB2635 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87E1B1FBFFB3000FB2635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA87E291FBFFB3000FB2635 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA87DDA1FBFFB1800FB2635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA87DE41FBFFB1800FB2635 /* ViewController.swift in Sources */,
+				CDA87DE21FBFFB1800FB2635 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87DEE1FBFFB1800FB2635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA87DF71FBFFB1800FB2635 /* MamboControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87DF91FBFFB1800FB2635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA87E021FBFFB1800FB2635 /* MamboControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA87E191FBFFB3000FB2635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA87E271FBFFB3000FB2635 /* NotificationController.swift in Sources */,
+				CDA87E251FBFFB3000FB2635 /* ExtensionDelegate.swift in Sources */,
+				CDA87E231FBFFB3000FB2635 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA87DF41FBFFB1800FB2635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA87DDD1FBFFB1800FB2635 /* MamboController */;
+			targetProxy = CDA87DF31FBFFB1800FB2635 /* PBXContainerItemProxy */;
+		};
+		CDA87DFF1FBFFB1800FB2635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA87DDD1FBFFB1800FB2635 /* MamboController */;
+			targetProxy = CDA87DFE1FBFFB1800FB2635 /* PBXContainerItemProxy */;
+		};
+		CDA87E201FBFFB3000FB2635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA87E1C1FBFFB3000FB2635 /* MamboControllerByWatch Extension */;
+			targetProxy = CDA87E1F1FBFFB3000FB2635 /* PBXContainerItemProxy */;
+		};
+		CDA87E2D1FBFFB3000FB2635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA87E101FBFFB2F00FB2635 /* MamboControllerByWatch */;
+			targetProxy = CDA87E2C1FBFFB3000FB2635 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA87DE51FBFFB1800FB2635 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA87DE61FBFFB1800FB2635 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA87DEA1FBFFB1800FB2635 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA87DEB1FBFFB1800FB2635 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA87E131FBFFB3000FB2635 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA87E141FBFFB3000FB2635 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA87E041FBFFB1800FB2635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDA87E051FBFFB1800FB2635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA87E071FBFFB1800FB2635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MamboController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA87E081FBFFB1800FB2635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MamboController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDA87E0A1FBFFB1800FB2635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MamboControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamboController.app/MamboController";
+			};
+			name = Debug;
+		};
+		CDA87E0B1FBFFB1800FB2635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MamboControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamboController.app/MamboController";
+			};
+			name = Release;
+		};
+		CDA87E0D1FBFFB1800FB2635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MamboControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MamboController;
+			};
+			name = Debug;
+		};
+		CDA87E0E1FBFFB1800FB2635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MamboControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MamboController;
+			};
+			name = Release;
+		};
+		CDA87E301FBFFB3000FB2635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MamboControllerByWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		CDA87E311FBFFB3000FB2635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MamboControllerByWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		CDA87E341FBFFB3000FB2635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MamboControllerByWatch_Extension;
+				INFOPLIST_FILE = MamboControllerByWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		CDA87E351FBFFB3000FB2635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MamboControllerByWatch_Extension;
+				INFOPLIST_FILE = MamboControllerByWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA87DD91FBFFB1800FB2635 /* Build configuration list for PBXProject "MamboController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA87E041FBFFB1800FB2635 /* Debug */,
+				CDA87E051FBFFB1800FB2635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA87E061FBFFB1800FB2635 /* Build configuration list for PBXNativeTarget "MamboController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA87E071FBFFB1800FB2635 /* Debug */,
+				CDA87E081FBFFB1800FB2635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA87E091FBFFB1800FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA87E0A1FBFFB1800FB2635 /* Debug */,
+				CDA87E0B1FBFFB1800FB2635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA87E0C1FBFFB1800FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA87E0D1FBFFB1800FB2635 /* Debug */,
+				CDA87E0E1FBFFB1800FB2635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA87E2F1FBFFB3000FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerByWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA87E301FBFFB3000FB2635 /* Debug */,
+				CDA87E311FBFFB3000FB2635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA87E331FBFFB3000FB2635 /* Build configuration list for PBXNativeTarget "MamboControllerByWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA87E341FBFFB3000FB2635 /* Debug */,
+				CDA87E351FBFFB3000FB2635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA87DD61FBFFB1800FB2635 /* Project object */;
+}
