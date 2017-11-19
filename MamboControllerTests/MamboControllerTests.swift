@@ -2,7 +2,7 @@
 //  MamboControllerTests.swift
 //  MamboControllerTests
 //
-//  Created by ST14573 on 2017/11/18.
+//  Created by taketin on 2017/11/18.
 //  Copyright © 2017年 taketin. All rights reserved.
 //
 

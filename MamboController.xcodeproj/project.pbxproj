@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CDA87DE21FBFFB1800FB2635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87DE11FBFFB1800FB2635 /* AppDelegate.swift */; };
-		CDA87DE41FBFFB1800FB2635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87DE31FBFFB1800FB2635 /* ViewController.swift */; };
+		CDA87DE41FBFFB1800FB2635 /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87DE31FBFFB1800FB2635 /* ServiceListViewController.swift */; };
 		CDA87DE71FBFFB1800FB2635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA87DE51FBFFB1800FB2635 /* Main.storyboard */; };
 		CDA87DE91FBFFB1800FB2635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA87DE81FBFFB1800FB2635 /* Assets.xcassets */; };
 		CDA87DEC1FBFFB1800FB2635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA87DEA1FBFFB1800FB2635 /* LaunchScreen.storyboard */; };
@@ -22,6 +22,7 @@
 		CDA87E271FBFFB3000FB2635 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA87E261FBFFB3000FB2635 /* NotificationController.swift */; };
 		CDA87E291FBFFB3000FB2635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA87E281FBFFB3000FB2635 /* Assets.xcassets */; };
 		CDA87E2E1FBFFB3000FB2635 /* MamboControllerByWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CDA87E111FBFFB2F00FB2635 /* MamboControllerByWatch.app */; };
+		CDBF4CEE1FC139AE00D24488 /* DroneDiscoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBF4CED1FC139AE00D24488 /* DroneDiscoverer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +84,7 @@
 /* Begin PBXFileReference section */
 		CDA87DDE1FBFFB1800FB2635 /* MamboController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamboController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA87DE11FBFFB1800FB2635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDA87DE31FBFFB1800FB2635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDA87DE31FBFFB1800FB2635 /* ServiceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
 		CDA87DE61FBFFB1800FB2635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDA87DE81FBFFB1800FB2635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA87DEB1FBFFB1800FB2635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,6 +106,8 @@
 		CDA87E281FBFFB3000FB2635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA87E2A1FBFFB3000FB2635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA87E2B1FBFFB3000FB2635 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CDA87E381FC12A1100FB2635 /* MamboController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MamboController-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDBF4CED1FC139AE00D24488 /* DroneDiscoverer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneDiscoverer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,11 +170,13 @@
 			isa = PBXGroup;
 			children = (
 				CDA87DE11FBFFB1800FB2635 /* AppDelegate.swift */,
-				CDA87DE31FBFFB1800FB2635 /* ViewController.swift */,
+				CDA87DE31FBFFB1800FB2635 /* ServiceListViewController.swift */,
 				CDA87DE51FBFFB1800FB2635 /* Main.storyboard */,
 				CDA87DE81FBFFB1800FB2635 /* Assets.xcassets */,
 				CDA87DEA1FBFFB1800FB2635 /* LaunchScreen.storyboard */,
 				CDA87DED1FBFFB1800FB2635 /* Info.plist */,
+				CDA87E381FC12A1100FB2635 /* MamboController-Bridging-Header.h */,
+				CDBF4CED1FC139AE00D24488 /* DroneDiscoverer.swift */,
 			);
 			path = MamboController;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 				TargetAttributes = {
 					CDA87DDD1FBFFB1800FB2635 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					CDA87DF11FBFFB1800FB2635 = {
@@ -414,7 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA87DE41FBFFB1800FB2635 /* ViewController.swift in Sources */,
+				CDA87DE41FBFFB1800FB2635 /* ServiceListViewController.swift in Sources */,
+				CDBF4CEE1FC139AE00D24488 /* DroneDiscoverer.swift in Sources */,
 				CDA87DE21FBFFB1800FB2635 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,11 +674,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MamboController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MamboController/MamboController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -681,11 +691,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MamboController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.taket.MamboController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MamboController/MamboController-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
